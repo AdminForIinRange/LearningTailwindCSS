@@ -1,11 +1,14 @@
 import React from 'react'
 
 export default function Home() {
+  
   return (
-  <div className="w-screen flex justify-center">
-    <h1 className="text-5xl md:text-2xl lg:text-6xl font-bold underline">
+  <div className="">
+    <h1 className="w-50% h-10 xl:text-5xl xl:bg-blue-500 sm:bg-green-200   text-center text-lg md:text-4xl text-blue-500 border-violet-300">
       Hello world!
     </h1>
+
+
   </div>
   )
 }
