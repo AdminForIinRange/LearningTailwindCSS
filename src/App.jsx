@@ -7,7 +7,7 @@ import {
 
 // layouts and pages
 import RootLayout from "./layouts/RootLayout.jsx";
-import Home from "./pages/Home/Home.jsx";
+import HomePageDir from "./pages/Home/HomePageDir.jsx";
 
 
 
@@ -16,14 +16,14 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<HomePageDir />} />
      
     </Route>
   )
 );
 
 function App() {
-  return <RouterProvider router={router} />;
+  return <RouterProvider  router={router} />;
 }
 
 export default App;
