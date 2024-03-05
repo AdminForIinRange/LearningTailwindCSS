@@ -1,3 +1,9 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@layer components{
+    .card{
+        @apply m-10 rounded-lg py-8 bg-white px-6 shadow-xl   hover:scale-110 duration-300 ease-in-out dark:bg-black;
+    }
+}
